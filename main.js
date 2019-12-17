@@ -28,4 +28,11 @@ win.on('closed', () => {
 })
 }
 // run create wibdow function
-app.on('ready', createWindow)
+app.on('ready', createWindow);
+
+// quit when all windows are close
+app.on('window-all-closed', () => {
+if (process.platform !== 'darwin') {
+    app.quit()
+}
+});
