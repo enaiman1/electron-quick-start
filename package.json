@@ -1,0 +1,22 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "simple system monitor",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enaiman1/electron-quick-start.git"
+  },
+  "author": "Eric Naiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enaiman1/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/enaiman1/electron-quick-start#readme",
+  "dependencies": {
+    "electron": "^7.1.5"
+  }
+}
