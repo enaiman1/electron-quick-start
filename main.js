@@ -18,6 +18,7 @@ win = new BrowserWindow({
     webPreferences: {
         nodeIntegration: true
       } 
+     
 })
 
 // loads index.html
@@ -44,4 +45,5 @@ if (process.platform !== 'darwin') {
     app.quit()
     
 }
+
 });
